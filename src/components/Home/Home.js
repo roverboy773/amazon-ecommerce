@@ -13,6 +13,7 @@ import Footer from '../footer/Footer.js'
 
 import '../../root/css/watchhero.css'
 
+
 import watch from '../../root/images/watch.png'
 import amazon from '../../root/images/amazon.png'
 import truck from '../../root/images/truck.png'
@@ -22,6 +23,7 @@ import controller from '../../root/images/controller.png'
 import keyboard from '../../root/images/keyboard.png'
 import headphone from '../../root/images/headphone.png'
 import graphic_card from '../../root/images/graphic_card.png'
+import vr from '../../root/images/vr.png'
 import apple from '../../root/images/apple.png'
 import nike from '../../root/images/nike.png'
 import adidas from '../../root/images/adidas.png'
@@ -364,6 +366,29 @@ const Home = () => {
             </section>
 
 
+            <section className="recommended">
+            
+            <div className="container">
+            <h2 className="fw-bolder my-5">Recommended for you</h2>
+                <div className="row">
+                    <div className="col-3">
+                        <div className="recomm_main">
+                             <img src={vr} alt="" />
+                             <div className="content">
+                                 <h4>Virtual Reality</h4>
+                                 <p>Best gaming product - High speed</p>
+                                 <p>+Explore</p>   
+                             </div>
+                        </div>
+                    </div>
+                    <div className="col-9">
+                        <div className="row mb-3"> <Slider/></div>
+                        <div className="row"> <Slider/></div>
+                       
+                    </div>
+                </div>
+                </div>
+            </section>
 
             <section className="Sports&fitness">
                 <div className="container">
@@ -439,9 +464,9 @@ const Home = () => {
 
             <section className="banner4">
                 <div className="container mt-5">
-                      <div className="banner4_wrapper">
-                             <img src={marjawaan} alt="" className="w-100"/>
-                      </div>
+                    <div className="banner4_wrapper">
+                        <img src={marjawaan} alt="" className="w-100" />
+                    </div>
                 </div>
             </section>
 

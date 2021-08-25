@@ -103,6 +103,24 @@ font-weight: bold;
 .banner2_wrapper p{
     width:60%;
 }
+.recommended{
+    margin-top:50px
+}
+.recomm_main{
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #F2F3F5;
+    padding:20px
+}
+.recomm_main img{
+   transform: scaleX(1.5) scaleY(1.3);
+   width:85%;
+   margin-left:10%
+}
+.recomm_main p{
+    margin:0;
+    color:#8D8D90
+}
 
 .banner3_content_wrapper{
         padding:5px 10px;
