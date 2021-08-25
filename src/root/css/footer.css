@@ -1,0 +1,66 @@
+.footer_wrapper{
+    background-color: #F2F3F5;
+    border-radius: 15px;
+    padding:10px 50px
+}
+.online_shopping h3,.useful_links h3,.make_money_with_us h3,.connect_with_us h3,.experience_our_app h3{
+font-size:23px;
+font-weight:500;
+margin-bottom: 20px;
+}
+.online_shopping ul,.useful_links ul,.make_money_with_us ul,.connect_with_us ul{
+padding:0;
+list-style: none;
+}
+.online_shopping ul li,.useful_links ul li,.make_money_with_us ul li{
+margin-bottom: 7px;
+}
+.connect_with_us ul li{
+    margin-bottom: 10px; 
+}
+.online_shopping ul li a,.useful_links ul li a,.make_money_with_us ul li a,.connect_with_us ul li a {
+text-decoration: none;
+color: #8D8D90;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.twitter_wrapper img{
+    width:20px;
+    height:15px;
+    margin-right: 10px;
+}
+.instagram_wrapper img{
+    width:15px;
+    height:15px;
+    margin-right: 15px;
+}
+.youtube_wrapper img{
+    width:22px;
+    height:16px;
+    margin-right: 8px;
+}
+.facebook_wrapper img{
+    width:15px;
+    height:15px;
+    margin-right: 15px;
+}
+
+.experience_our_app_wrapper{
+    display: flex;
+}
+.experience_our_app .play_store img{
+width:90%
+}
+.experience_our_app .app_store img{
+    width:90%
+}
+
+.footer_line{
+    width:100%;
+}
+.copy_right {
+    margin: 8px 0;;
+    color:#8D8D90
+}
