@@ -9,7 +9,8 @@
 }
 .location_img{
     width:9%;
-    height:9%
+    height:9%;
+    margin-right: 7px;
 }
 .navigation_input_wrapper{
     padding:6px 5px;

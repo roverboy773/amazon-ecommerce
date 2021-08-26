@@ -28,7 +28,7 @@ const Upperheader = () => {
                         <img src={location} alt="" className="location_img"/>
                     
                    
-                        <div className="d-flex flex-column align-items-center">
+                        <div className="ml-1">
                           <p className="mb-0">Deliver to john</p> 
                           <p className="mb-0">Chennai 640060</p>  
                         </div>

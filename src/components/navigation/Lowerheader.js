@@ -7,34 +7,34 @@ const Lowerheader = () => {
         <div className="lower_header">
             <ul>
                 <li>
-                    <a href="">All</a>
+                    <a href="/">All</a>
                 </li>
                 <li>
-                    <a href="">MEN</a>
+                    <a href="/">MEN</a>
                 </li>
                 <li>
-                    <a href="">WOMEN</a>
+                    <a href="/">WOMEN</a>
                 </li>
                 <li>
-                    <a href="">KIDS</a>
+                    <a href="/">KIDS</a>
                 </li>
                 <li>
-                    <a href="">HOME & LIVING</a>
+                    <a href="/">HOME & LIVING</a>
                 </li>
                 <li>
-                    <a href="">ELECTRONICS</a>
+                    <a href="/">ELECTRONICS</a>
                 </li>
                 <li>
-                    <a href="">BEAUTY PRODUCTS</a>
+                    <a href="/">BEAUTY PRODUCTS</a>
                 </li>
                 <li>
-                    <a href="">SPORTS & FITNESS</a>
+                    <a href="/">SPORTS & FITNESS</a>
                 </li>
                 <li>
-                    <a href="">BOOKS</a>
+                    <a href="/">BOOKS</a>
                 </li>
                 <li>
-                    <a href="">MOVIES, MUSIC & GAMES</a>
+                    <a href="/">MOVIES, MUSIC & GAMES</a>
                 </li>
             </ul>
             </div>

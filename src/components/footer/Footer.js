@@ -19,13 +19,13 @@ const Footer = () => {
                             <div className="online_shopping">
                                 <h3>ONLINE SHOPPING</h3>
                                 <ul>
-                                    <li><a href="">Men</a></li>
-                                    <li><a href="">Women</a></li>
-                                    <li><a href="">Kids</a></li>
-                                    <li><a href="">Home & Living</a></li>
-                                    <li><a href="">Electronics</a></li>
-                                    <li><a href="">Sports & Fitness</a></li>
-                                    <li><a href="">Movies, Books & Games</a></li>
+                                    <li><a href="/">Men</a></li>
+                                    <li><a href="/">Women</a></li>
+                                    <li><a href="/">Kids</a></li>
+                                    <li><a href="/">Home & Living</a></li>
+                                    <li><a href="/">Electronics</a></li>
+                                    <li><a href="/">Sports & Fitness</a></li>
+                                    <li><a href="/">Movies, Books & Games</a></li>
                                 </ul>
                             </div>
 
@@ -34,13 +34,13 @@ const Footer = () => {
                             <div className="useful_links">
                                 <h3>USEFULL LINKS</h3>
                                 <ul>
-                                    <li><a href="">Contact Us</a></li>
-                                    <li><a href="">FAQ</a></li>
-                                    <li><a href="">T&C</a></li>
-                                    <li><a href="">Terms of Use</a></li>
-                                    <li><a href="">Shipping</a></li>
-                                    <li><a href="">Cancellation</a></li>
-                                    <li><a href="">Returns</a></li>
+                                    <li><a href="/">Contact Us</a></li>
+                                    <li><a href="/">FAQ</a></li>
+                                    <li><a href="/">T&C</a></li>
+                                    <li><a href="/">Terms of Use</a></li>
+                                    <li><a href="/">Shipping</a></li>
+                                    <li><a href="/">Cancellation</a></li>
+                                    <li><a href="/">Returns</a></li>
                                 </ul>
                             </div>
 
@@ -49,13 +49,13 @@ const Footer = () => {
                             <div className="make_money_with_us">
                                 <h3>MAKE MONEY WITH US</h3>
                                 <ul>
-                                    <li><a href="">Sell on Amazon</a></li>
-                                    <li><a href="">Sell Under Amazon Accelerator</a></li>
-                                    <li><a href="">Tanrta Global Selling</a></li>
-                                    <li><a href="">Become an Affiliate</a></li>
-                                    <li><a href="">Fulfilment by Tantra</a></li>
-                                    <li><a href="">Advertise Your Products</a></li>
-                                    <li><a href="">Tantra Pay on Merchants</a></li>
+                                    <li><a href="/">Sell on Amazon</a></li>
+                                    <li><a href="/">Sell Under Amazon Accelerator</a></li>
+                                    <li><a href="/">Tanrta Global Selling</a></li>
+                                    <li><a href="/">Become an Affiliate</a></li>
+                                    <li><a href="/">Fulfilment by Tantra</a></li>
+                                    <li><a href="/">Advertise Your Products</a></li>
+                                    <li><a href="/">Tantra Pay on Merchants</a></li>
                                 </ul>
                             </div>
 
@@ -67,25 +67,25 @@ const Footer = () => {
                                     <li>
                                         <div className="contact twitter_wrapper">
                                             <img src={twitter} alt="" />
-                                            <a href="" className="mb-0">Twitter</a>
+                                            <a href="/" className="mb-0">Twitter</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="contact instagram_wrapper">
                                             <img src={instagram} alt="" />
-                                            <a href="" className="mb-0">Instagram</a>
+                                            <a href="/" className="mb-0">Instagram</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="contact youtube_wrapper">
                                             <img src={youtube} alt="" />
-                                            <a href="" className="mb-0">Youtube</a>
+                                            <a href="/" className="mb-0">Youtube</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="contact facebook_wrapper">
                                             <img src={facebook} alt="" />
-                                            <a href="" className="mb-0">Facebook</a>
+                                            <a href="/" className="mb-0">Facebook</a>
                                         </div>
                                     </li>
                                 </ul>
