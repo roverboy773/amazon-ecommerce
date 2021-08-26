@@ -13,6 +13,8 @@
     margin-right: 7px;
 }
 .navigation_input_wrapper{
+    display: flex;
+    align-items: center;
     padding:6px 5px;
     background-color: #F2F3F5;
     border-radius: 7px;
@@ -28,6 +30,7 @@
     background: transparent;
     width:95%;
     margin: 0 auto;
+    padding:5px 20px;
 }
 .navigation_input_wrapper img{
   width:15px;
