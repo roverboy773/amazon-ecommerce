@@ -1,27 +1,19 @@
-html,body{
-    overflow-x: hidden;
-}
+
 .roadmap{
     margin-bottom:20px
 }
-.roadmap_wrapper {
-    width:30%;
-}
+
 .roadmap_wrapper span{
     color:#8D8D90;
     margin:0 10px;
 }
 .roadmap_wrapper img{
-    width:4%
+    width:1.5%
 }
 .roadmap_wrapper .home{
     margin-left:0
 }
 .header_info{
-/*    
-    display: flex;
-    align-items:center;
-    justify-content: space-between; */
     margin:10px 0
 }
 .header_info h1{
@@ -53,7 +45,8 @@ margin:5px 0
     margin-bottom: 0;
 }
 .filter img{
-  width:10%
+  width:10%;
+  cursor: pointer;
 }
 
 
@@ -80,6 +73,7 @@ margin:5px 0
 .indi_filter img{
     width:12px;
     height: 12px;
+    cursor: pointer;
 }
 .products_wrapper{
     width:100%;
@@ -121,7 +115,7 @@ margin:5px 0
    margin-left: 10px;
   }
   .more_filters{
-      padding:20px 6px 10px 110px
+      padding:20px 20px 10px 110px;
   }
 .more_filters h4{
     font-size:20px;
@@ -147,7 +141,8 @@ margin:5px 0
   .more_filters  .plusmore{
        color:#FC9827;
        font-weight: bold;
-       padding-left:20px
+       padding-left:20px;
+       cursor: pointer;
   }
   .filter_name input{
     margin-right:10px;
@@ -181,6 +176,7 @@ margin:5px 0
 
 .pagination{
     margin-top: 25px;
+    margin-bottom: 25px;;
     padding:10px;
     background-color:#F2F3F5 ;
     border-radius: 10px;
@@ -203,6 +199,7 @@ margin:5px 0
 .page_number_wrapper .left_arrow img,.page_number_wrapper .right_arrow img{
  width:15px;
  margin: 0 10px;
+ cursor: pointer;
 }
 .page_number_wrapper .left_arrow img{
     transform: rotate(180deg);

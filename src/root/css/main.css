@@ -1,3 +1,4 @@
 html,body{
-    font-family:Helvetica,Neue;
+    font-family:Helvetica,Neue; 
+    overflow-x: hidden;  
 }

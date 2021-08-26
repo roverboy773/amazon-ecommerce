@@ -1,8 +1,9 @@
 import React from 'react'
 
-import Navigation from '../navigation/Navigation'
-import Footer from '../footer/Footer'
-import Product from '../Product/Product'
+import Navigation from '../../components/navigation/Navigation'
+import Footer from '../../components/footer/Footer'
+import Product from '../../components/Product/Product'
+import Filter from '../../components/Filter/Filter'
 
 import '../../root/css/products.css'
 
@@ -88,91 +89,10 @@ const Products = () => {
 
             <section className="products_wrapper">
                 <div className="row ">
-                    <div className="col-3 border">
-                        <div className="more_filters">
-                            <h4 >BRAND</h4>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <p>Puma</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <p>Puma</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <p>Puma</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <p>Puma</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <p>Puma</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-
-                            <p class="plusmore">+230 More</p>
-
-                        </div>
-
-
-                        <div className="more_filters">
-                            <h4 >BRAND</h4>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <p>Puma</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <p>Puma</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <p>Puma</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <p>Puma</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <p>Puma</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-
-
-
-                        </div>
+                    <div className="col-3 border m-0 p-0">
+                        
+                    <Filter></Filter>
+                       <Filter></Filter>
 
 
                         <div className="more_filters">

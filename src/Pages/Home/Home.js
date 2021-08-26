@@ -6,9 +6,9 @@ import 'swiper/swiper-bundle.css';
 
 import Cart from '../Cart/Cart'
 import Login from '../Login/Login'
-import HeaderNavigation from '../navigation/Navigation.js'
-import Slider from '../Slider/Slider';
-import Footer from '../footer/Footer.js'
+import HeaderNavigation from '../../components/navigation/Navigation.js'
+import Slider from '../../components/Slider/Slider'
+import Footer from '../../components/footer/Footer'
 
 
 import '../../root/css/watchhero.css'
