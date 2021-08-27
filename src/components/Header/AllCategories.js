@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../root/css/main.css'
 
-const Lowerheader = () => {
+const AllCategories = () => {
     return (
         <div className="container my-5">
         <div className="lower_header">
@@ -42,4 +42,4 @@ const Lowerheader = () => {
     )
 }
 
-export default Lowerheader
+export default AllCategories

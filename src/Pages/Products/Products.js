@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Navigation from '../../components/navigation/Navigation'
-import Footer from '../../components/footer/Footer'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
 import Product from '../../components/Product/Product'
 import Filter from '../../components/Filter/Filter'
 
@@ -15,7 +15,8 @@ import cross from '../../root/images/cross.png'
 const Products = () => {
     return (
         <div className="">
-            <Navigation></Navigation>
+
+          <Header/>
 
             <section className="roadmap">
                 <div className="container">
@@ -91,8 +92,8 @@ const Products = () => {
                 <div className="row ">
                     <div className="col-3 border m-0 p-0">
                         
-                    <Filter></Filter>
-                       <Filter></Filter>
+                    <Filter/>
+                       <Filter/>
 
 
                         <div className="more_filters">
@@ -234,7 +235,7 @@ const Products = () => {
                 </div>
             </section>
 
-            <Footer></Footer>
+            <Footer/>
         </div>
     )
 }

@@ -1,9 +1,9 @@
 import React from 'react'
-import Upperheader from './Upperheader'
-import Lowerheader from './Lowerheader'
+import Upperheader from './UpperHeader'
+import Lowerheader from './AllCategories'
 import '../../root/css/main.css'
 import '../../root/css/navigation.css'
-const Navigation = () => {
+const Header = () => {
     return (
         <div>
             <Upperheader></Upperheader>
@@ -12,4 +12,4 @@ const Navigation = () => {
     )
 }
 
-export default Navigation
+export default Header

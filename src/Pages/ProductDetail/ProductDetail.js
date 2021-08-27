@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Navigation from '../../components/navigation/Navigation'
-import Footer from '../../components/footer/Footer'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
 
 import roadmap_arrow from '../../root/images/roadmap_arrow.png'
 import stars from '../../root/images/stars.png'
@@ -10,10 +10,10 @@ import shoe_varient from '../../root/images/shoe_varient.png'
 import top_view from '../../root/images/top_view.png'
 
 import '../../root/css/Indiproduct.css'
-const IndiProduct = () => {
+const ProductDetail = () => {
     return (
         <div>
-            <Navigation></Navigation>
+            <Header/>
 
             <section className="roadmap">
                 <div className="container">
@@ -122,9 +122,9 @@ const IndiProduct = () => {
                 </div>
             </section>
 
-            <Footer></Footer>
+            <Footer/>
         </div>
     )
 }
 
-export default IndiProduct
+export default ProductDetail

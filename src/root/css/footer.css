@@ -1,10 +1,10 @@
 .footer_wrapper{
     background-color: #F2F3F5;
     border-radius: 15px;
-    padding:10px 50px
+    padding: 10px 40px 10px 60px;
 }
 .online_shopping h3,.useful_links h3,.make_money_with_us h3,.connect_with_us h3,.experience_our_app h3{
-font-size:23px;
+font-size:21px;
 font-weight:500;
 margin-bottom: 20px;
 }
@@ -21,6 +21,14 @@ margin-bottom: 7px;
 .online_shopping ul li a,.useful_links ul li a,.make_money_with_us ul li a,.connect_with_us ul li a {
 text-decoration: none;
 color: #8D8D90;
+font-size:15px
+}
+
+.connect_with_us h3{
+    text-align: center;
+}
+.connect_with_us ul{
+    padding-left:42px;
 }
 .contact{
     display: flex;
@@ -46,21 +54,34 @@ color: #8D8D90;
     height:15px;
     margin-right: 15px;
 }
-
+.experience_our_app{
+margin-top:40px;
+}
+.experience_our_app h3{
+    font-size:21px;
+    padding-left: 42px;
+}
 .experience_our_app_wrapper{
     display: flex;
+    padding-left:18px
 }
-.experience_our_app .play_store img{
-width:90%
+.experience_our_app .play_store,.experience_our_app .app_store {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+.experience_our_app .play_store img{ 
+width:80%
 }
 .experience_our_app .app_store img{
-    width:90%
+    width:80%
 }
 
 .footer_line{
+    margin-top:40px;
     width:100%;
 }
 .copy_right {
-    margin: 8px 0;;
+    margin: 20px 0;;
     color:#8D8D90
 }

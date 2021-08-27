@@ -6,9 +6,9 @@ import 'swiper/swiper-bundle.css';
 
 import Cart from '../Cart/Cart'
 import Login from '../Login/Login'
-import HeaderNavigation from '../../components/navigation/Navigation.js'
+import Header from '../../components/Header/Header.js'
 import Slider from '../../components/Slider/Slider'
-import Footer from '../../components/footer/Footer'
+import Footer from '../../components/Footer/Footer'
 
 
 import '../../root/css/watchhero.css'
@@ -32,7 +32,7 @@ import ucb from '../../root/images/ucb.png'
 import marjawaan from '../../root/images/marjawaan.png'
 const Home = () => {
 
-    useEffect(() => {
+    const SwiperHandler=()=>{
         Swiper.use([Navigation, Pagination]);
         const swiper = new Swiper('.swiper-container', {
             loop: false,
@@ -58,11 +58,15 @@ const Home = () => {
                 }
             }
         });
-        return () => {
+    }
 
-        }
-    }, [])
-
+       
+useEffect(() => {
+    SwiperHandler()
+    return () => {
+        
+    }
+}, [])
 
     return (
         <div>
@@ -72,7 +76,7 @@ const Home = () => {
           }
              <Link to="/cart">Cart</Link> */}
 
-            <HeaderNavigation></HeaderNavigation>
+            <Header/>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -299,7 +303,7 @@ const Home = () => {
 
                     <h2 className="fw-bolder my-5">Shop By Category</h2>
 
-                    <Slider></Slider>
+                    <Slider/>
 
                 </div>
             </section>
@@ -318,7 +322,7 @@ const Home = () => {
                     </ul>
 
 
-                    <Slider></Slider>
+                    <Slider/>
 
 
 
@@ -343,7 +347,7 @@ const Home = () => {
                     </ul>
 
 
-                    <Slider></Slider>
+                    <Slider/>
 
                 </div>
             </section>
@@ -395,7 +399,7 @@ const Home = () => {
 
                     <h2 className="fw-bolder my-5">Sports & Fitness</h2>
 
-                    <Slider></Slider>
+                    <Slider/>
 
                 </div>
             </section>
@@ -408,7 +412,7 @@ const Home = () => {
 
                     <h2 className="fw-bolder my-5">Movies, Books & Games</h2>
 
-                    <Slider></Slider>
+                    <Slider/>
 
                 </div>
             </section>
@@ -488,7 +492,7 @@ const Home = () => {
             </section>
 
 
-            <Footer></Footer>
+            <Footer/>
 
         </div>
     )

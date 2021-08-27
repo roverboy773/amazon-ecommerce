@@ -9,7 +9,7 @@ import search from '../../root/images/search.png'
 import '../../root/css/main.css'
 import '../../root/css/navigation.css'
 
-const Upperheader = () => {
+const UpperHeader = () => {
     return (
         <div className="container mt-4">
         <div className="row justify-content-between align-items-center">
@@ -28,7 +28,7 @@ const Upperheader = () => {
                         <img src={location} alt="" className="location_img"/>
                     
                    
-                        <div className="ml-1">
+                        <div className="">
                           <p className="mb-0">Deliver to john</p> 
                           <p className="mb-0">Chennai 640060</p>  
                         </div>
@@ -62,4 +62,4 @@ const Upperheader = () => {
     )
 }
 
-export default Upperheader
+export default UpperHeader

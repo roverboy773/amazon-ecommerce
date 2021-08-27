@@ -106,9 +106,9 @@ const Footer = () => {
 
                 <img src={footer_line} alt="" className="footer_line" />
 
-                <div>
-                      <p className="copy_right"> &#169; Copyright 2021 Amazon shopping inc. All Rights Reserved</p> 
-                </div>
+
+                <p className="copy_right"> &#169; Copyright 2021 Amazon shopping inc. All Rights Reserved</p>
+
             </div>
         </div>
     )

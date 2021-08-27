@@ -1,3 +1,7 @@
+.carousel-control-prev,.carousel-control-next{
+z-index:-3
+}
+
 .watchhero{
 background-color:#F2F3F5;
 border-radius: 10px;

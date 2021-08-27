@@ -6,6 +6,8 @@ import beauty_product from '../../root/images/beauty_product.png'
 import light_blue_man from '../../root/images/light_blue_man.png'
 import green_tshirt from '../../root/images/greentshirt.png'
 import red_kurta from '../../root/images/red_kurta.png'
+
+import '../../root/css/Slider.css'
 const Slider = () => {
     return (
         

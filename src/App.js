@@ -6,7 +6,7 @@ import Cart from './Pages/Cart/Cart'
 import Home from './Pages/Home/Home'
 import Login from './Pages/Login/Login'
 import Products from './Pages/Products/Products'
-import IndiProduct from './Pages/Product/IndiProduct'
+import ProductDetail from './Pages/ProductDetail/ProductDetail'
 
 import './App.css';
 
@@ -30,7 +30,7 @@ function App() {
           </Route>
 
           <Route ecact path="/product">
-            <IndiProduct />
+            <ProductDetail />
           </Route>
       
           <Route path="/">
