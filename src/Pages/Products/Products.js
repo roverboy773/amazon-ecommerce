@@ -5,23 +5,23 @@ import Footer from '../../components/Footer/Footer'
 import Product from '../../components/Product/Product'
 import Filter from '../../components/Filter/Filter'
 
-import '../../root/css/products.css'
+import Styles from './products.module.css'
 
-import roadmap_arrow from '../../root/images/roadmap_arrow.png'
-import downArrow from '../../root/images/downArrow.png'
-import shoes from '../../root/images/shoes.png'
-import stars from '../../root/images/stars.png'
-import cross from '../../root/images/cross.png'
+import roadmap_arrow from '../../assets/images/roadmap_arrow.png'
+import downArrow from '../../assets/images/downArrow.png'
+import shoes from '../../assets/images/shoes.png'
+import stars from '../../assets/images/stars.png'
+import cross from '../../assets/images/cross.png'
 const Products = () => {
     return (
         <div className="">
 
           <Header/>
 
-            <section className="roadmap">
+            <section className={`${Styles.roadmap}`}>
                 <div className="container">
-                    <div className="roadmap_wrapper">
-                        <span className="home">Home</span>
+                    <div className={`${Styles.roadmap_wrapper}`}>
+                        <span className={`${Styles.home}`}>Home</span>
                         <img src={roadmap_arrow} alt="" />
                         <span>Men</span>
                         <img src={roadmap_arrow} alt="" />
@@ -32,9 +32,9 @@ const Products = () => {
                 </div>
             </section>
 
-            <section className="extra_info">
+            <section className="all_products">
                 <div className="container">
-                    <div className="header_info">
+                    <div className={`${Styles.type_of_products}`}>
                         <div className="row align-items-center">
                             <div className="col-4">
                                 <h1>Casual Shoes For Men</h1>
@@ -47,37 +47,37 @@ const Products = () => {
 
                     </div>
 
-                    <div className="filters_wrapper">
+                    <div className={`${Styles.filters_wrapper}`}>
                         <div className="row">
                             <div className="col-3">
                                 <h4 className="f_heading">FILTERS</h4>
                             </div>
                             <div className="col-1">
-                                <div className="filter">
+                                <div className={`${Styles.filter}`}>
                                     <p>Ankle Height</p>
                                     <img src={downArrow} alt="" />
                                 </div>
                             </div>
                             <div className="col-1">
-                                <div className="filter">
+                                <div className={`${Styles.filter}`}>
                                     <p>Ankle Height</p>
                                     <img src={downArrow} alt="" />
                                 </div>
                             </div>
                             <div className="col-1">
-                                <div className="filter">
+                                <div className={`${Styles.filter}`}>
                                     <p>Ankle Height</p>
                                     <img src={downArrow} alt="" />
                                 </div>
                             </div>
                             <div className="col-1">
-                                <div className="filter">
+                                <div className={`${Styles.filter}`}>
                                     <p>Ankle Height</p>
                                     <img src={downArrow} alt="" />
                                 </div>
                             </div>
                             <div className="col-1">
-                                <div className="filter">
+                                <div className={`${Styles.filter}`}>
                                     <p>Ankle Height</p>
                                     <img src={downArrow} alt="" />
                                 </div>
@@ -94,55 +94,15 @@ const Products = () => {
                         
                     <Filter/>
                        <Filter/>
-
-
-                        <div className="more_filters">
-                            <h4 >BRAND</h4>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <div className="filter_color black"></div>
-                                    <p>Black</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <div className="filter_color brown"></div>
-                                    <p>Brown</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <div className="filter_color navy_blue"></div>
-                                    <p>Navy Blue</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-                            <div className="more_filters_content">
-                                <div className="filter_name">
-                                    <input type="checkbox" />
-                                    <div className="filter_color yellow"></div>
-                                    <p>Yellow</p>
-                                </div>
-                                <p>1223</p>
-                            </div>
-
-
-                            <p class="plusmore">+230 More</p>
-
-                        </div>
-
+                       <Filter/>
+                   
                     </div>
 
                     <div className="col border">
                     <div className="container">
-                        <div className="selected_filters ">
-                            <div className="indi_filter">
-                                <p class="filter_name">Nike</p>
+                        <div className={`${Styles.selected_filters}`}>
+                            <div className={`${Styles.individual_filter}`}>
+                                <p class={`${Styles.filter_name}`}>Nike</p>
                                 <img src={cross} alt="" />
                             </div>
                         </div>
@@ -196,24 +156,24 @@ const Products = () => {
 
                         </div>
 
-                        <div className="pagination">
+                        <div className={`${Styles.pagination}`}>
                             <div className="row align-items-center">
                                 <div className="col-4">
-                                    <div className="page_indicator">
+                                    <div className={`${Styles.page_indicator}`}>
                                         <p>Page 2 Of 26</p>
                                     </div>
                                 </div>
                                 <div className="col-8">
-                                    <div className="page_number_wrapper">
-                                        <div className="left_arrow">
+                                    <div className={`${Styles.page_number_wrapper}`}>
+                                        <div className={`${Styles.pagination_left_arrow}`}>
                                             <img src={roadmap_arrow} alt="" />
                                         </div>
-                                        <div className="page_number">
+                                        <div className={`${Styles.page_number}`}>
                                             <ul >
                                                 <li>1</li>
                                                 <li>2</li>
                                                 <li>3</li>
-                                                <li className="active">4</li>
+                                                <li className={`${Styles.active}`}>4</li>
                                                 <li>5</li>
                                                 <li>6</li>
                                                 <li>7</li>
@@ -222,7 +182,7 @@ const Products = () => {
                                                 <li>10</li>
                                             </ul>
                                         </div>
-                                        <div className="right_arrow">
+                                        <div className={`${Styles.pagination_right_arrow}`}>
                                             <img src={roadmap_arrow} alt="" />
                                         </div>
                                     </div>

@@ -1,15 +1,28 @@
-section.main{
-    margin-top: 50px;
+.roadmap{
+    margin-bottom:20px
 }
-section.main .left_wrapper {
+
+.roadmap_wrapper span{
+    color:#8D8D90;
+    margin:0 10px;
+}
+.roadmap_wrapper img{
+    width:1.5%
+}
+.roadmap_wrapper .home{
+    margin-left:0
+}
+
+
+ .product_main_image_wrapper {
     background-color: #F2F3F5;
     border-radius: 8px;
     overflow: hidden;
 }
-section.main .left_wrapper .best{
+.product_main_image_wrapper .best{
     padding:25px 0 0 25px ;
 }
-section.main .left_wrapper .best_seller{
+.product_main_image_wrapper .best_seller{
     padding:9px 0px;
     width:25%;
     text-align: center;
@@ -18,27 +31,27 @@ section.main .left_wrapper .best_seller{
     color:white;
     border-radius: 6px;
 }
-section.main .left_wrapper img{
+ .product_main_image_wrapper img{
     display: block;
     width:64%;
     transform: scale(1.5);
     margin: 0 auto;
 }
-.views_wrapper{
+.product_views_wrapper{
     margin-top:20px
 }
-.view{
+.product_view{
     border-radius: 10px;
     background-color: #F2F3F5;
 }
-.view img{
+.product_view img{
   width:100%
 }
-.view.more{
+.product_view.more{
     position:relative;
     border: 1px solid black;
 }
-.view.more img{
+.product_view.more img{
     filter: blur(3px);
 }
 .more p.remaining{
@@ -57,14 +70,14 @@ section.main .left_wrapper img{
     margin-bottom: 15px;
 }
 
-.right_wrapper .options p{
+.product_details_wrapper .options p{
     margin: 0 25px 0 25px;
     color:#8D8D90
 }
-.right_wrapper .options p.opt1{
+.product_details_wrapper .options p.opt1{
     margin-left: 0;
 }
-.right_wrapper .options p.active{
+.product_details_wrapper .options p.active{
     color:#FC9827;
     text-decoration: underline;
 }
@@ -100,15 +113,15 @@ margin-bottom: 0;
     color: #8D8D90;
 }
 
-.right_wrapper h4.size,.right_wrapper h4.colour{
+.product_details_wrapper h4.size,.product_details_wrapper h4.colour{
     font-size: 25px;
     color:#8D8D90;
     margin-bottom: 15px;
 }
-.right_wrapper h4.colour span{
+.product_details_wrapper h4.colour span{
     color:#FC9827;
 }
-.varients img{
+.product_varients img{
  width:100%
 }
 

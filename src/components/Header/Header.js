@@ -1,13 +1,12 @@
 import React from 'react'
 import Upperheader from './UpperHeader'
-import Lowerheader from './AllCategories'
-import '../../root/css/main.css'
-import '../../root/css/navigation.css'
+import AllCategories from './AllCategories'
+
 const Header = () => {
     return (
         <div>
-            <Upperheader></Upperheader>
-            <Lowerheader></Lowerheader>
+            <Upperheader/>
+            <AllCategories/>
         </div>
     )
 }

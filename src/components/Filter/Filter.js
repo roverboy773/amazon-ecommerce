@@ -1,47 +1,48 @@
 import React from 'react'
 
+import Styles from './Filter.module.css'
 const Filter = () => {
     return (
-        
-        <div className="more_filters">
+              
+        <div className={`${Styles.more_products_filters}`}>
         <h4 >BRAND</h4>
-        <div className="more_filters_content">
-            <div className="filter_name">
+        <div className={`${Styles.more_products_filters_content}`}>
+            <div className={`${Styles.filter_name}`}>
                 <input type="checkbox" />
                 <p>Puma</p>
             </div>
             <p>1223</p>
         </div>
-        <div className="more_filters_content">
-            <div className="filter_name">
+        <div className={`${Styles.more_products_filters_content}`}>
+            <div className={`${Styles.filter_name}`}>
                 <input type="checkbox" />
                 <p>Puma</p>
             </div>
             <p>1223</p>
         </div>
-        <div className="more_filters_content">
-            <div className="filter_name">
+        <div className={`${Styles.more_products_filters_content}`}>
+            <div className={`${Styles.filter_name}`}>
                 <input type="checkbox" />
                 <p>Puma</p>
             </div>
             <p>1223</p>
         </div>
-        <div className="more_filters_content">
-            <div className="filter_name">
+        <div className={`${Styles.more_products_filters_content}`}>
+            <div className={`${Styles.filter_name}`}>
                 <input type="checkbox" />
                 <p>Puma</p>
             </div>
             <p>1223</p>
         </div>
-        <div className="more_filters_content">
-            <div className="filter_name">
+        <div className={`${Styles.more_products_filters_content}`}>
+            <div className={`${Styles.filter_name}`}>
                 <input type="checkbox" />
                 <p>Puma</p>
             </div>
             <p>1223</p>
         </div>
 
-        <p class="plusmore">+230 More</p>
+        <p className={`${Styles.plusmore}`}>+230 More</p>
 
     </div>
     )

@@ -1,23 +1,23 @@
 import React from 'react'
 
-import '../../root/css/footer.css'
+import Styles from './Footer.module.css'
 
-import twitter from '../../root/images/twitter.png'
-import instagram from '../../root/images/instagram.png'
-import facebook from '../../root/images/facebook.png'
-import youtube from '../../root/images/youtube.png'
-import download_playstore from '../../root/images/download_playstore.png'
-import download_appstore from '../../root/images/download_appstore.png'
-import footer_line from '../../root/images/footer_line.png'
+import twitter from '../../assets/images/twitter.png'
+import instagram from '../../assets/images/instagram.png'
+import facebook from '../../assets/images/facebook.png'
+import youtube from '../../assets/images/youtube.png'
+import download_playstore from '../../assets/images/download_playstore.png'
+import download_appstore from '../../assets/images/download_appstore.png'
+import footer_line from '../../assets/images/footer_line.png'
 const Footer = () => {
     return (
         <div className="container my-5">
-            <div className="footer_wrapper">
+            <div className={`${Styles.footer_wrapper}`}>
                 <div className="footer_content">
                     <div className="row">
                         <div className="col-3 pt-5">
-                            <div className="online_shopping">
-                                <h3>ONLINE SHOPPING</h3>
+                            <div className={`${Styles.footer_online_shopping_links_wrapper}`}>
+                                <h3 >ONLINE SHOPPING</h3>
                                 <ul>
                                     <li><a href="/">Men</a></li>
                                     <li><a href="/">Women</a></li>
@@ -31,7 +31,7 @@ const Footer = () => {
 
                         </div>
                         <div className="col-3 pt-5">
-                            <div className="useful_links">
+                            <div className={`${Styles.footer_useful_links_wrapper}`}>
                                 <h3>USEFULL LINKS</h3>
                                 <ul>
                                     <li><a href="/">Contact Us</a></li>
@@ -46,7 +46,7 @@ const Footer = () => {
 
                         </div>
                         <div className="col-3 pt-5">
-                            <div className="make_money_with_us">
+                            <div className={`${Styles.footer_make_money_with_us_wrapper}`}>
                                 <h3>MAKE MONEY WITH US</h3>
                                 <ul>
                                     <li><a href="/">Sell on Amazon</a></li>
@@ -61,29 +61,29 @@ const Footer = () => {
 
                         </div>
                         <div className="col-3 pt-5">
-                            <div className="connect_with_us">
+                            <div className={`${Styles.footer_connect_with_us}`}>
                                 <h3>CONNECT WITH US</h3>
                                 <ul>
                                     <li>
-                                        <div className="contact twitter_wrapper">
+                                        <div className={`${Styles.contact} ${Styles.footer_twitter_wrapper}`}>
                                             <img src={twitter} alt="" />
                                             <a href="/" className="mb-0">Twitter</a>
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="contact instagram_wrapper">
+                                        <div className={`${Styles.contact} ${Styles.footer_instagram_wrapper}`}>
                                             <img src={instagram} alt="" />
                                             <a href="/" className="mb-0">Instagram</a>
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="contact youtube_wrapper">
+                                        <div className={`${Styles.contact} ${Styles.footer_youtube_wrapper}`}>
                                             <img src={youtube} alt="" />
                                             <a href="/" className="mb-0">Youtube</a>
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="contact facebook_wrapper">
+                                        <div className={`${Styles.contact} ${Styles.footer_facebook_wrapper}`}>
                                             <img src={facebook} alt="" />
                                             <a href="/" className="mb-0">Facebook</a>
                                         </div>
@@ -91,23 +91,23 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            <div className="experience_our_app">
+                            <div className={`${Styles.footer_experience_our_app}`}>
                                 <h3>EXPERIENCE OUR APP</h3>
-                                <div className="experience_our_app_wrapper">
+                                <div className={`${Styles.footer_experience_our_app_wrapper}`}>
 
-                                    <div className="play_store"> <img src={download_playstore} alt="" /></div>
+                                    <div className={`${Styles.play_store}`}> <img src={download_playstore} alt="" /></div>
 
-                                    <div className="app_store">  <img src={download_appstore} alt="" /></div>
+                                    <div className={`${Styles.app_store}`}>  <img src={download_appstore} alt="" /></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <img src={footer_line} alt="" className="footer_line" />
+                <img src={footer_line} alt="" className={`${Styles.footer_line}`}/>
 
 
-                <p className="copy_right"> &#169; Copyright 2021 Amazon shopping inc. All Rights Reserved</p>
+                <p className={`${Styles.copy_right}`}> &#169; Copyright 2021 Amazon shopping inc. All Rights Reserved</p>
 
             </div>
         </div>

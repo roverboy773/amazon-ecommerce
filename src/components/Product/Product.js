@@ -1,19 +1,29 @@
 import React from 'react'
 
-import '../../root/css/products.css'
+import Styles from './Product.module.css'
 
-import shoes from '../../root/images/shoes.png'
-import stars from '../../root/images/stars.png'
+import shoes from '../../assets/images/shoes.png'
+import stars from '../../assets/images/stars.png'
+
 const Product = () => {
     return (
-        <div className="product">
-            <img src={shoes} alt="" className="prod_image" />
-            <div className="product_info">
+        <div className={`${Styles.product}`}>
+            <img src={shoes} alt="" className={`${Styles.prod_image}`} />
+            <div className={`${Styles.product_info}`}>
                 <h5>Nike Zoom KD9</h5>
-                <span className="type">Men Casual</span>  <span className="offer">(50% OFF)</span>
-                <img src={stars} alt="" className="stars_img" />
-                <span className="reviews">28504 reviews</span><br />
-                <span className="offer_price">₹1050.00</span>  <span className="original">₹1999.00</span>
+                <div className="d-flex align-items-center ">
+                    <p className={`${Styles.prod_type}`}>Men Casual</p>
+                    <p className={`${Styles.prod_offer}`}>(50% OFF)</p>
+                </div>
+                <div className='d-flex align-items-center'>
+                    <img src={stars} alt="" className={`${Styles.prod_stars}`} />
+                    <p className={`${Styles.prod_reviews}`}>28504 reviews</p>
+                </div>
+                <div className='d-flex align-items-center'>
+                    <p className={`${Styles.prod_offer_price}`}>₹1050.00</p>
+                    <p className={`${Styles.prod_original_price}`}>₹1999.00</p>
+                </div>
+
             </div>
         </div>
     )

@@ -1,10 +1,10 @@
 import React from 'react'
-import '../../root/css/main.css'
+import Styles from './AllCategories.module.css'
 
 const AllCategories = () => {
     return (
         <div className="container my-5">
-        <div className="lower_header">
+        <div className={`${Styles.lower_header}`}>
             <ul>
                 <li>
                     <a href="/">All</a>
