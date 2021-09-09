@@ -13,18 +13,18 @@ const UpperHeader = () => {
         <div className="container mt-4">
         <div className="row justify-content-between align-items-center">
             <div className="col-1">
-                <img src={BBlogo} alt="" className={`${Styles.logo}`} />
+                <img src={BBlogo} alt="BB Logo" className={`${Styles.logo}`} />
             </div>
             <div className="col-6">
                 <div className={`${Styles.header_input_wrapper}`}>
-                            <img src={search} alt=""  className=""/>
+                            <img src={search} alt="Magnifying Glass icon"  className=""/>
                             <input type="text" />
                 </div>
             </div>
             <div className="col-2">
                 <div className="d-flex align-items-center justify-content-center">
                   
-                        <img src={location} alt="" className={`${Styles.header_location_img}`}/>
+                        <img src={location} alt="Location icon" className={`${Styles.header_location_img}`}/>
                     
                    
                         <div className="">
@@ -37,7 +37,7 @@ const UpperHeader = () => {
             <div className="col-1">
                 <div className="d-flex align-items-center justify-content-center">
                    
-                        <img src={heart} alt="" className={`${Styles.heart}`}/>
+                        <img src={heart} alt="Heart icon" className={`${Styles.heart}`}/>
                    
                     <p className="mb-0">WISHLIST</p>
                    
@@ -46,13 +46,13 @@ const UpperHeader = () => {
 
             <div className="col-1 d-flex align-items-center justify-content-center ">
    
-                   <img src={person} alt="" className={`${Styles.person}`}/>
+                   <img src={person} alt="User icon" className={`${Styles.person}`}/>
                    <p className="mb-0">Profile</p>  
                 
             </div>
             <div className="col-1 d-flex align-items-center justify-content-center">
   
-                        <img src={cart} alt="" className={`${Styles.cart}`}/>
+                        <img src={cart} alt="Cart Icon" className={`${Styles.cart}`}/>
                     <p className="mb-0">Cart</p> 
 
             </div>

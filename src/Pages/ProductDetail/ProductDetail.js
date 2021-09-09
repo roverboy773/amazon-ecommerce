@@ -1,4 +1,6 @@
 import React from 'react'
+// import { NavigationContainer } from 'react-navigation'
+
 
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
@@ -11,6 +13,8 @@ import top_view from '../../assets/images/top_view.png'
 
 import Styles from './ProductDetail.module.css'
 const ProductDetail = () => {
+
+    // const{tranferred_data}=route.params
     return (
         <div>
             <Header />
@@ -19,13 +23,13 @@ const ProductDetail = () => {
                 <div className="container">
                     <div className={`${Styles.roadmap_wrapper}`}>
                         <span className="home">Home</span>
-                        <img src={roadmap_arrow} alt="" />
+                        <img src={roadmap_arrow} alt="right arrow" />
                         <span>Men</span>
-                        <img src={roadmap_arrow} alt="" />
+                        <img src={roadmap_arrow} alt="right arrow" />
                         <span>Footwear</span>
-                        <img src={roadmap_arrow} alt="" />
+                        <img src={roadmap_arrow} alt="right arrow" />
                         <span>Casual Shoes</span>
-                        <img src={roadmap_arrow} alt="" />
+                        <img src={roadmap_arrow} alt="right arrow" />
                         <span>Puma Casual Shoes</span>
                     </div>
                 </div>
@@ -39,28 +43,28 @@ const ProductDetail = () => {
                                 <div className={`${Styles.best}`}>
                                     <p className={`${Styles.best_seller}`}>Best Seller</p>
                                 </div>
-                                <img src={puma_shoes} alt="" />
+                                <img src={tranferred_data[0].picture} alt="Product image" />
                             </div>
                             <div className={`${Styles.product_views_wrapper}`}>
                                 <div className="row">
                                     <div className="col-3">
                                         <div className={`${Styles.product_view} ${Styles.top_view}`}>
-                                            <img src={top_view} alt="" />
+                                            <img src={top_view} alt="product top view" />
                                         </div>
                                     </div>
                                     <div className="col-3">
                                         <div className={`${Styles.product_view} ${Styles.bottom_view}`}>
-                                            <img src={top_view} alt="" />
+                                            <img src={top_view} alt="product bottom view" />
                                         </div>
                                     </div>
                                     <div className="col-3">
                                         <div className={`${Styles.product_view} ${Styles.back_view}`}>
-                                            <img src={top_view} alt="" />
+                                            <img src={top_view} alt="product back view" />
                                         </div>
                                     </div>
                                     <div className="col-3">
                                         <div className={`${Styles.product_view} ${Styles.more}`}>
-                                            <img src={top_view} alt="" />
+                                            <img src={top_view} alt="remaining views" />
                                             <p className={`${Styles.remaining}`}>+2 More</p>
                                         </div>
                                     </div>
@@ -77,6 +81,7 @@ const ProductDetail = () => {
                         <div className="col-6">
                             <div className={`${Styles.product_details_wrapper}`}>
                                 <div className={`${Styles.options}`}>
+                                <p>{tranferred_data[0].id}</p>
                                     <p className={`${Styles.opt1} ${Styles.active}`}>Products Details</p>
                                     <p className={`${Styles.opt2}`}>Delivery</p>
                                     <p className={`${Styles.opt3}`}>Reviews</p>

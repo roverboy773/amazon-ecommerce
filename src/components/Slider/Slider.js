@@ -17,7 +17,7 @@ const Slider = () => {
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"> <div className={`${Styles.swiper_product_wrapper}`}>
                         <div className={`${Styles.swiper_product_image}`}>
-                            <img src={light_blue_man} alt="" />
+                            <img src={light_blue_man} alt="Model Image" />
                         </div>
 
                         <p className="mb-0">Mens's Fashion</p>
@@ -27,7 +27,7 @@ const Slider = () => {
                     <div class="swiper-slide">
                         <div className={`${Styles.swiper_product_wrapper}`}>
                             <div className={`${Styles.swiper_product_image}`}>
-                                <img src={red_kurta} alt="" />
+                                <img src={red_kurta} alt="Model Image" />
                             </div>
                             <p className="mb-0">Mens's Fashion</p>
                             <p className={`${Styles.swiper_product_explore_more}`}>+ Explore</p>
@@ -36,7 +36,7 @@ const Slider = () => {
                     <div class="swiper-slide">
                         <div className={`${Styles.swiper_product_wrapper}`}>
                             <div className={`${Styles.swiper_product_image}`}>
-                                <img src={green_tshirt} alt="" />
+                                <img src={green_tshirt} alt="Model Image" />
                             </div>
                             <p className="mb-0">Mens's Fashion</p>
                             <p className={`${Styles.swiper_product_explore_more}`}>+ Explore</p>
@@ -45,7 +45,7 @@ const Slider = () => {
                     <div class="swiper-slide">
                         <div className={`${Styles.swiper_product_wrapper}`}>
                             <div className={`${Styles.swiper_product_image}`}>
-                                <img src={light_blue_man} alt="" />
+                                <img src={light_blue_man} alt="Model Image" />
                             </div>
                             <p className="mb-0">Mens's Fashion</p>
                             <p className={`${Styles.swiper_product_explore_more}`}>+ Explore</p>
@@ -54,7 +54,7 @@ const Slider = () => {
                     <div class="swiper-slide">
                         <div className={`${Styles.swiper_product_wrapper}`}>
                             <div className={`${Styles.swiper_product_image}`}>
-                                <img src={light_blue_man} alt="" />
+                                <img src={light_blue_man} alt="Model Image" />
                             </div>
                             <p className="mb-0">Mens's Fashion</p>
                             <p className={`${Styles.swiper_product_explore_more}`}>+ Explore</p>
@@ -63,7 +63,7 @@ const Slider = () => {
                     <div class="swiper-slide">
                         <div className={`${Styles.swiper_product_wrapper}`}>
                             <div className={`${Styles.swiper_product_image}`}>
-                                <img src={light_blue_man} alt="" />
+                                <img src={light_blue_man} alt="Model Image" />
                             </div>
                             <p className="mb-0">Mens's Fashion</p>
                             <p className={`${Styles.swiper_product_explore_more}`}>+ Explore</p>
@@ -72,7 +72,7 @@ const Slider = () => {
                     <div class="swiper-slide">
                         <div className={`${Styles.swiper_product_wrapper}`}>
                             <div className={`${Styles.swiper_product_image}`}>
-                                <img src={light_blue_man} alt="" />
+                                <img src={light_blue_man} alt="Model Image" />
                             </div>
                             <p className="mb-0">Mens's Fashion</p>
                             <p className={`${Styles.swiper_product_explore_more}`}>+ Explore</p>
@@ -81,7 +81,7 @@ const Slider = () => {
                     <div class="swiper-slide">
                         <div className={`${Styles.swiper_product_wrapper}`}>
                             <div className={`${Styles.swiper_product_image}`}>
-                                <img src={light_blue_man} alt="" />
+                                <img src={light_blue_man} alt="Model Image" />
                             </div>
                             <p className="mb-0">Mens's Fashion</p>
                             <p className={`${Styles.swiper_product_explore_more}`}>+ Explore</p>
@@ -90,7 +90,7 @@ const Slider = () => {
                     <div class="swiper-slide">
                         <div className={`${Styles.swiper_product_wrapper}`}>
                             <div className={`${Styles.swiper_product_image}`}>
-                                <img src={light_blue_man} alt="" />
+                                <img src={light_blue_man} alt="Model Image" />
                             </div>
                             <p className="mb-0">Mens's Fashion</p>
                             <p className={`${Styles.swiper_product_explore_more}`}>+ Explore</p>

@@ -8,7 +8,7 @@ import stars from '../../assets/images/stars.png'
 const Product = () => {
     return (
         <div className={`${Styles.product}`}>
-            <img src={shoes} alt="" className={`${Styles.prod_image}`} />
+            <img src={shoes} alt="Shoe image" className={`${Styles.prod_image}`} />
             <div className={`${Styles.product_info}`}>
                 <h5>Nike Zoom KD9</h5>
                 <div className="d-flex align-items-center ">

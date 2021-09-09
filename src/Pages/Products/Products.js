@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import Product from '../../components/Product/Product'
@@ -22,11 +23,11 @@ const Products = () => {
                 <div className="container">
                     <div className={`${Styles.roadmap_wrapper}`}>
                         <span className={`${Styles.home}`}>Home</span>
-                        <img src={roadmap_arrow} alt="" />
+                        <img src={roadmap_arrow} alt="right arrow" />
                         <span>Men</span>
-                        <img src={roadmap_arrow} alt="" />
+                        <img src={roadmap_arrow} alt="right arrow" />
                         <span>Footwear</span>
-                        <img src={roadmap_arrow} alt="" />
+                        <img src={roadmap_arrow} alt="right arrow" />
                         <span>Casual Shoes</span>
                     </div>
                 </div>
@@ -55,31 +56,31 @@ const Products = () => {
                             <div className="col-1">
                                 <div className={`${Styles.filter}`}>
                                     <p>Ankle Height</p>
-                                    <img src={downArrow} alt="" />
+                                    <img src={downArrow} alt="down arrow" />
                                 </div>
                             </div>
                             <div className="col-1">
                                 <div className={`${Styles.filter}`}>
                                     <p>Ankle Height</p>
-                                    <img src={downArrow} alt="" />
+                                    <img src={downArrow} alt="down arrow" />
                                 </div>
                             </div>
                             <div className="col-1">
                                 <div className={`${Styles.filter}`}>
                                     <p>Ankle Height</p>
-                                    <img src={downArrow} alt="" />
+                                    <img src={downArrow} alt="down arrow" />
                                 </div>
                             </div>
                             <div className="col-1">
                                 <div className={`${Styles.filter}`}>
                                     <p>Ankle Height</p>
-                                    <img src={downArrow} alt="" />
+                                    <img src={downArrow} alt="down arrow" />
                                 </div>
                             </div>
                             <div className="col-1">
                                 <div className={`${Styles.filter}`}>
                                     <p>Ankle Height</p>
-                                    <img src={downArrow} alt="" />
+                                    <img src={downArrow} alt="down arrow" />
                                 </div>
                             </div>
                         </div>
@@ -103,7 +104,7 @@ const Products = () => {
                         <div className={`${Styles.selected_filters}`}>
                             <div className={`${Styles.individual_filter}`}>
                                 <p class={`${Styles.filter_name}`}>Nike</p>
-                                <img src={cross} alt="" />
+                                <img src={cross} alt="close" />
                             </div>
                         </div>
 
@@ -166,7 +167,7 @@ const Products = () => {
                                 <div className="col-8">
                                     <div className={`${Styles.page_number_wrapper}`}>
                                         <div className={`${Styles.pagination_left_arrow}`}>
-                                            <img src={roadmap_arrow} alt="" />
+                                            <img src={roadmap_arrow} alt="left arrow" />
                                         </div>
                                         <div className={`${Styles.page_number}`}>
                                             <ul >
@@ -183,7 +184,7 @@ const Products = () => {
                                             </ul>
                                         </div>
                                         <div className={`${Styles.pagination_right_arrow}`}>
-                                            <img src={roadmap_arrow} alt="" />
+                                            <img src={roadmap_arrow} alt="right arrow" />
                                         </div>
                                     </div>
                                 </div>

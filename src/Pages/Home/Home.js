@@ -257,12 +257,12 @@ const Home = () => {
                     <div className={`${Styles.facilities_banner_content_wrapper}`}>
                         <div className="d-flex align-items-center">
                             <div className="d-flex align-items-center w-25">
-                                <img src={amazon} alt="" className=" w-50" />
+                                <img src={amazon} alt="Amazon Logo" className=" w-50" />
                             </div>
                             <div className="w-25">
                                 <div className=" d-flex align-items-center">
                                     <div className="col-4">
-                                        <img src={truck} alt="" className="w-75" />
+                                        <img src={truck} alt="Truck Logo" className="w-75" />
                                     </div>
                                     <div className="">
                                         <p className="mb-0 fw-bolder">Free Shipping</p>
@@ -273,7 +273,7 @@ const Home = () => {
                             <div className="w-25">
                                 <div className=" d-flex align-items-center">
 
-                                    <img src={boxes} alt="" className="w-25" />
+                                    <img src={boxes} alt="Boxes image" className="w-25" />
 
                                     <div className="">
                                         <p className="mb-0 fw-bolder">Exchange & Returns</p>
@@ -284,7 +284,7 @@ const Home = () => {
                             <div className="w-25">
                                 <div className="d-flex align-items-center">
 
-                                    <img src={credit_card} alt="" className="w-25" />
+                                    <img src={credit_card} alt="Credit card image" className="w-25" />
 
                                     <div className="">
                                         <p className="mb-0 fw-bolder">Secure Payments</p>
@@ -321,15 +321,7 @@ const Home = () => {
                         <li>Sports & Fitness</li>
                     </ul>
 
-
                     <Slider />
-
-
-
-
-
-
-
                 </div>
             </section>
 
@@ -346,9 +338,7 @@ const Home = () => {
                         <li>Sports & Fitness</li>
                     </ul>
 
-
                     <Slider />
-
                 </div>
             </section>
 
@@ -362,7 +352,7 @@ const Home = () => {
                                 <button className={`${Styles.view_more}`}><a href="/">View More</a></button>
                             </div>
                             <div className="col-2 m-5">
-                                <img src={boxes} alt="" className={`${Styles.watch}`} />
+                                <img src={boxes} alt="box image" className={`${Styles.watch}`} />
                             </div>
                         </div>
                     </div>
@@ -377,7 +367,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-3">
                             <div className={`${Styles.recommended_vr_wrapper}`}>
-                                <img src={vr} alt="" />
+                                <img src={vr} alt="vr set" />
                                 <div className={`${Styles.content}`}>
                                     <h4>Virtual Reality</h4>
                                     <p>Best gaming product - High speed</p>
@@ -419,7 +409,7 @@ const Home = () => {
                     <div className={`${Styles.IT_peripherals_banner_content_wrapper}`}>
                         <div className="d-flex align-items-center">
                             <div className="d-flex align-items-center justify-content-center">
-                                <img src={controller} alt="" className=" w-25 " />
+                                <img src={controller} alt="controller image" className=" w-25 " />
                                 <div className="">
                                     <p className="mb-0 fw-bolder">Joystick</p>
                                     <p className={`${Styles.explore}`}>+ Explore</p>
@@ -428,7 +418,7 @@ const Home = () => {
                             <div className="w-25">
                                 <div className=" d-flex align-items-center justify-content-center">
                                     <div className="col-4">
-                                        <img src={graphic_card} alt="" className="w-100" />
+                                        <img src={graphic_card} alt="graphic card" className="w-100" />
                                     </div>
                                     <div className="">
                                         <p className="mb-0 fw-bolder">Joystick</p>
@@ -439,7 +429,7 @@ const Home = () => {
                             <div className="w-25">
                                 <div className=" d-flex align-items-center justify-content-center">
 
-                                    <img src={headphone} alt="" className={`${Styles.headphone}`} />
+                                    <img src={headphone} alt="headphone" className={`${Styles.headphone}`} />
 
                                     <div className="">
                                         <p className="mb-0 fw-bolder">Joystick</p>
@@ -450,7 +440,7 @@ const Home = () => {
                             <div className="w-25">
                                 <div className="d-flex align-items-center justify-content-center">
 
-                                    <img src={keyboard} alt="" className="w-25" />
+                                    <img src={keyboard} alt="keyboard" className="w-25" />
 
                                     <div className="">
                                         <p className="mb-0 fw-bolder">Joystick</p>
@@ -466,7 +456,7 @@ const Home = () => {
             <section className="amazon_prime_music_banner">
                 <div className="container mt-5">
                     <div className={`${Styles.amazon_prime_music_banner_wrapper}`}>
-                        <img src={marjawaan} alt="" className="w-100" />
+                        <img src={marjawaan} alt="marjawwaan album image" className="w-100" />
                     </div>
                 </div>
             </section>
@@ -474,15 +464,15 @@ const Home = () => {
             <section className='top_brands'>
                 <div className="container mt-5">
                     <div className={`${Styles.top_brands_wrapper}`}>
-                        <div className={`${Styles.brand_logo}`}><img src={apple} alt="" /></div>
+                        <div className={`${Styles.brand_logo}`}><img src={apple} alt="Apple logo" /></div>
 
-                        <div className={`${Styles.brand_logo}`}><img src={adidas} alt="" /></div>
+                        <div className={`${Styles.brand_logo}`}><img src={adidas} alt="Adidas logo" /></div>
 
-                        <div className={`${Styles.brand_logo}`}> <img src={nike} alt="" /></div>
+                        <div className={`${Styles.brand_logo}`}> <img src={nike} alt="Nike logo" /></div>
 
-                        <div className={`${Styles.brand_logo}`}><img src={ucb} alt="" /></div>
+                        <div className={`${Styles.brand_logo}`}><img src={ucb} alt="ucb logo" /></div>
 
-                        <div className={`${Styles.brand_logo}`}> <img src={puma} alt="" /></div>
+                        <div className={`${Styles.brand_logo}`}> <img src={puma} alt="Puma logo" /></div>
 
                     </div>
                 </div>

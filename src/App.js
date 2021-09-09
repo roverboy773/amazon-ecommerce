@@ -29,7 +29,7 @@ function App() {
             <Products />
           </Route>
 
-          <Route ecact path="/product">
+          <Route ecact path="/product_details">
             <ProductDetail />
           </Route>
       

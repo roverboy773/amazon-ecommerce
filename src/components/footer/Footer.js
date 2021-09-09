@@ -66,25 +66,25 @@ const Footer = () => {
                                 <ul>
                                     <li>
                                         <div className={`${Styles.contact} ${Styles.footer_twitter_wrapper}`}>
-                                            <img src={twitter} alt="" />
+                                            <img src={twitter} alt="Twitter Logo" />
                                             <a href="/" className="mb-0">Twitter</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div className={`${Styles.contact} ${Styles.footer_instagram_wrapper}`}>
-                                            <img src={instagram} alt="" />
+                                            <img src={instagram} alt="Instagram Logo" />
                                             <a href="/" className="mb-0">Instagram</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div className={`${Styles.contact} ${Styles.footer_youtube_wrapper}`}>
-                                            <img src={youtube} alt="" />
+                                            <img src={youtube} alt="Youtube Logo" />
                                             <a href="/" className="mb-0">Youtube</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div className={`${Styles.contact} ${Styles.footer_facebook_wrapper}`}>
-                                            <img src={facebook} alt="" />
+                                            <img src={facebook} alt="FaceBook Logo" />
                                             <a href="/" className="mb-0">Facebook</a>
                                         </div>
                                     </li>
@@ -95,16 +95,16 @@ const Footer = () => {
                                 <h3>EXPERIENCE OUR APP</h3>
                                 <div className={`${Styles.footer_experience_our_app_wrapper}`}>
 
-                                    <div className={`${Styles.play_store}`}> <img src={download_playstore} alt="" /></div>
+                                    <div className={`${Styles.play_store}`}> <img src={download_playstore} alt="Google Play Store image" /></div>
 
-                                    <div className={`${Styles.app_store}`}>  <img src={download_appstore} alt="" /></div>
+                                    <div className={`${Styles.app_store}`}>  <img src={download_appstore} alt="iOS App Store image" /></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <img src={footer_line} alt="" className={`${Styles.footer_line}`}/>
+                <img src={footer_line} alt="Line" className={`${Styles.footer_line}`}/>
 
 
                 <p className={`${Styles.copy_right}`}> &#169; Copyright 2021 Amazon shopping inc. All Rights Reserved</p>
