@@ -1,0 +1,56 @@
+
+.logo{
+    width:60px
+}
+.upper{
+    width:100%;
+    padding:20px 120px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.delivery p{
+    font-size:.8rem;
+    margin-bottom: 0;
+}
+.wishlist,.cart,.profile {
+    font-size:.8rem;
+    margin-bottom: 0;
+}
+.header_location_img{
+    width:9%;
+    height:9%;
+    margin-right: 7px;
+}
+.header_input_wrapper{
+    display: flex;
+    align-items: center;
+    padding:2px 5px;
+    background-color: #F2F3F5;
+    border-radius: 7px;
+}
+.heart,.cart,.person{
+    width:20%;
+    height:20%;
+    margin-right: 5px;
+}
+.header_input_wrapper input{
+    border:none;
+    outline:none;
+    background: transparent;
+    width:95%;
+    margin: 0 auto;
+    padding:5px 20px;
+}
+.header_input_wrapper img{
+  width:15px;
+  height:15px;
+    margin-left: 10px;
+}
+
+
+.nav_link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+}
